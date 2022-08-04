@@ -1,6 +1,6 @@
 {
   "name": "user-web",
-  "host":"192.168.0.103",
+  "host":"192.1.0.1",
   "port": 8021,
   "tags":["xshp", "user","web"],
   "env": "dev",
@@ -11,16 +11,16 @@
     "key": "jm6DWHR^yFkSTQmcCrYYn6gmT2k%IZQ^"
   },
   "sms": {
-    "key": "LTAIt3QSqWi4OoSs",
-    "secrect": "wjwrofAc4mQNx6zE4dnaXNgxwgpDBs",
+    "key": "123123",
+    "secrect": "123123123",
     "expire": 300
   },
   "redis": {
-    "host": "139.198.21.42",
+    "host": "139.1.1.1",
     "port": 6379
   },
   "consul": {
-    "host": "192.168.0.104",
+    "host": "192.1.0.1",
     "port": 8500
   }
 }
