@@ -50,10 +50,10 @@ func SendSms(ctx *gin.Context) {
 	request.Domain = "dysmsapi.aliyuncs.com"
 	request.Version = "2017-05-25"
 	request.ApiName = "SendSms"
-	request.QueryParams["RegionId"] = "cn-beijing"
-	request.QueryParams["PhoneNumbers"] = sendSmsCode.Mobile                            //手机号
-	request.QueryParams["SignName"] = "码脑科技"                                       //阿里云验证过的项目名 自己设置
-	request.QueryParams["TemplateCode"] = "SMS_164509045"                          //阿里云的短信模板号 自己设置
+	request.QueryParams["RegionId"] = "1233"
+	request.QueryParams["PhoneNumbers"] = sendSmsCode.Mobile            //手机号
+	request.QueryParams["SignName"] = "xx科技"                            //阿里云验证过的项目名 自己设置
+	request.QueryParams["TemplateCode"] = "SMS_16450904522"             //阿里云的短信模板号 自己设置
 	request.QueryParams["TemplateParam"] = "{\"code\":" + smsCode + "}" //短信模板中的验证码内容 自己生成   之前试过直接返回，但是失败，加上code成功。
 	response, err := client.ProcessCommonRequest(request)
 	fmt.Print(client.DoAction(request, response))
@@ -71,7 +71,7 @@ func SendSms(ctx *gin.Context) {
 	rdb.Set(context.Background(), sendSmsCode.Mobile, smsCode, time.Duration(global.ServerConfig.RedisInfo.Expire)*time.Second)
 
 	ctx.JSON(http.StatusOK, gin.H{
-		"msg":"发送成功",
+		"msg": "发送成功",
 	})
 
 }
