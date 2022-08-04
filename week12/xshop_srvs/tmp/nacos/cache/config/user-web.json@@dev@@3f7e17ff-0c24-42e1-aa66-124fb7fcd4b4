@@ -1,0 +1,26 @@
+{
+  "name": "user-web",
+  "port": 8021,
+  "env": "dev",
+  "user_srv": {
+    "host": "192.168.0.103",
+    "port": 9527,
+    "name": "user-srv"
+  },
+  "jwt": {
+    "key": "jm6DWHR^yFkSTQmcCrYYn6gmT2k%IZQ^"
+  },
+  "sms": {
+    "key": "LTAIt3QSqWi4OoSs",
+    "secrect": "wjwrofAc4mQNx6zE4dnaXNgxwgpDBs",
+    "expire": 300
+  },
+  "redis": {
+    "host": "139.198.21.42",
+    "port": 6379
+  },
+  "consul": {
+    "host": "192.168.0.104",
+    "port": 8500
+  }
+}

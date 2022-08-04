@@ -1,0 +1,22 @@
+{
+  "host":"192.168.0.103",
+  "name": "goods-web",
+  "port": 8022,
+  "tags":["xshp", "goods","web"],
+  "env": "dev",
+  "goods_srv": {
+    "name": "goods-srv"
+  },
+  "jwt": {
+    "key": "jm6DWHR^yFkSTQmcCrYYn6gmT2k%IZQ^"
+  },
+  "consul": {
+    "host": "192.168.0.104",
+    "port": 8500
+  },
+  "jaeger": {
+    "host": "192.168.0.104",
+    "name": "xshop",
+    "port": 6831
+  }
+}

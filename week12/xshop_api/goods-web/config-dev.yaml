@@ -1,0 +1,10 @@
+env: 'dev'
+
+#nacos:
+host: '192.168.0.104'
+port: 8848
+namespace: 'f2bffee9-09f2-4e87-9d09-8ec16961e895'
+user: 'nacos'
+password: 'nacos'
+dataid: 'goods-web.json'
+group: 'dev'

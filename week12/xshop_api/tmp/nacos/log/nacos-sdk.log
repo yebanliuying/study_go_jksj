@@ -1,0 +1,125 @@
+2022-03-27T01:26:11.121+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<Get "http://192.168.0.103:8848/nacos/v1/cs/configs?dataId=user-web.json&group=dev": dial tcp 192.168.0.103:8848: connectex: No connection could be made because the target machine actively refused it.> , result:<>
+2022-03-27T01:26:13.126+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<Get "http://192.168.0.103:8848/nacos/v1/cs/configs?group=dev&dataId=user-web.json": dial tcp 192.168.0.103:8848: connectex: No connection could be made because the target machine actively refused it.> , result:<>
+2022-03-27T01:26:15.129+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<Get "http://192.168.0.103:8848/nacos/v1/cs/configs?dataId=user-web.json&group=dev": dial tcp 192.168.0.103:8848: connectex: No connection could be made because the target machine actively refused it.> , result:<>
+2022-03-27T01:26:15.129+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:Get "http://192.168.0.103:8848/nacos/v1/cs/configs?dataId=user-web.json&group=dev": dial tcp 192.168.0.103:8848: connectex: No connection could be made because the target machine actively refused it. 
+2022-03-27T01:26:15.129+0800	[31mERROR[0m	config_client/config_client.go:205	get config from cache  error:failed to read config cache file:tmp/nacos/cache\config\user-web.json@@dev@@,err:open tmp/nacos/cache\config\user-web.json@@dev@@: The system cannot find the path specified.  
+2022-03-27T01:28:50.053+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:28:50.056+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:28:50.057+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:28:50.057+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-27T01:28:50.059+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: user-web.json, group: dev, namespaceId: .
+2022-03-27T01:30:15.091+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:30:15.094+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:30:15.095+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:30:15.095+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-27T01:30:15.095+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: user-web.json, group: dev, namespaceId: .
+2022-03-27T01:32:38.189+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:32:38.192+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:32:38.194+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:32:38.194+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-27T01:32:38.194+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: user-web.json, group: dev, namespaceId: .
+2022-03-27T01:32:55.116+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:32:55.119+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:32:55.124+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:32:55.124+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-27T01:32:55.124+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: user-web.json, group: dev, namespaceId: .
+2022-03-27T01:34:47.925+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:34:47.929+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:34:47.936+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:34:47.936+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-27T01:34:47.936+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: user-web.json, group: dev, namespaceId: .
+2022-03-27T01:37:29.554+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:37:29.557+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:37:29.561+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:37:29.561+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-27T01:37:29.562+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: user-web.json, group: dev, namespaceId: .
+2022-03-27T01:39:07.970+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:39:07.973+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:39:07.977+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:39:07.977+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-27T01:39:07.978+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: user-web.json, group: dev, namespaceId: .
+2022-03-27T01:41:06.887+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:41:06.893+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:41:06.894+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:41:06.894+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-27T01:41:06.894+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: user-web.json, group: dev, namespaceId: .
+2022-03-27T01:43:44.718+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:43:44.726+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:43:44.729+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:43:44.729+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-27T01:43:44.730+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: user-web.json, group: dev, namespaceId: .
+2022-03-27T01:46:51.461+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:46:51.465+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:46:51.468+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-27T01:46:51.468+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-27T01:46:51.469+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: user-web.json, group: dev, namespaceId: .

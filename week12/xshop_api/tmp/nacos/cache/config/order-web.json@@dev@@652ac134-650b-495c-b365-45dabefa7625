@@ -1,0 +1,29 @@
+{
+  "host":"192.168.0.103",
+  "name": "order-web",
+  "port": 8023,
+  "tags":["xshp", "order","web"],
+  "env": "dev",
+  "order_srv": {
+    "name": "order-srv"
+  },
+  "goods_srv": {
+    "name": "goods-srv"
+  },
+  "inventory_srv": {
+    "name": "inventory-srv"
+  },
+  "jwt": {
+    "key": "jm6DWHR^yFkSTQmcCrYYn6gmT2k%IZQ^"
+  },
+  "consul": {
+    "host": "192.168.0.104",
+    "port": 8500
+  },
+  "alipay": {
+    "app_id":"12313",
+    "private_key":"1232322",
+    "notify_url": "https://123.com",
+    "return_url": "https://123.com"
+  }
+}

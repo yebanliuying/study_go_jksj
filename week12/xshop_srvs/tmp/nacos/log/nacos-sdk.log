@@ -1,0 +1,33 @@
+2022-03-28T12:13:48.598+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-srv.json","group":"dev","tenant":"f2bffee9-09f2-4e87-9d09-8ec16961e895"}>, call domain error:<Get "http://192.168.0.104:8848/nacos/v1/cs/configs?dataId=goods-srv.json&group=dev&tenant=f2bffee9-09f2-4e87-9d09-8ec16961e895": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-03-28T12:13:53.599+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-srv.json","group":"dev","tenant":"f2bffee9-09f2-4e87-9d09-8ec16961e895"}>, call domain error:<Get "http://192.168.0.104:8848/nacos/v1/cs/configs?tenant=f2bffee9-09f2-4e87-9d09-8ec16961e895&dataId=goods-srv.json&group=dev": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-03-28T12:13:58.605+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-srv.json","group":"dev","tenant":"f2bffee9-09f2-4e87-9d09-8ec16961e895"}>, call domain error:<Get "http://192.168.0.104:8848/nacos/v1/cs/configs?dataId=goods-srv.json&group=dev&tenant=f2bffee9-09f2-4e87-9d09-8ec16961e895": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-03-28T12:13:58.605+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:Get "http://192.168.0.104:8848/nacos/v1/cs/configs?dataId=goods-srv.json&group=dev&tenant=f2bffee9-09f2-4e87-9d09-8ec16961e895": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 
+2022-03-29T20:07:21.953+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"inventory-srv.json","group":"dev","tenant":"30b3b83b-a927-4118-ba51-cc1c284eddab"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-29T20:07:21.958+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"inventory-srv.json","group":"dev","tenant":"30b3b83b-a927-4118-ba51-cc1c284eddab"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-29T20:07:21.961+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"inventory-srv.json","group":"dev","tenant":"30b3b83b-a927-4118-ba51-cc1c284eddab"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-29T20:07:21.961+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-29T20:07:21.961+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: inventory-srv.json, group: dev, namespaceId: 30b3b83b-a927-4118-ba51-cc1c284eddab.
+2022-03-30T23:05:03.400+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"inventory-srv.json","group":"dev","tenant":"652ac134-650b-495c-b365-45dabefa7625"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-30T23:05:03.406+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"inventory-srv.json","group":"dev","tenant":"652ac134-650b-495c-b365-45dabefa7625"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-30T23:05:03.410+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"inventory-srv.json","group":"dev","tenant":"652ac134-650b-495c-b365-45dabefa7625"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-03-30T23:05:03.410+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-03-30T23:05:03.410+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: inventory-srv.json, group: dev, namespaceId: 652ac134-650b-495c-b365-45dabefa7625.
+2022-04-01T11:19:22.407+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userop_srv.json","group":"dev","tenant":"c711d735-06d1-4fca-9186-f7df5b5b0b67"}>, call domain error:<Get "http://192.168.0.104:8849/nacos/v1/cs/configs?dataId=userop_srv.json&group=dev&tenant=c711d735-06d1-4fca-9186-f7df5b5b0b67": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-04-01T11:19:27.414+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userop_srv.json","group":"dev","tenant":"c711d735-06d1-4fca-9186-f7df5b5b0b67"}>, call domain error:<Get "http://192.168.0.104:8849/nacos/v1/cs/configs?dataId=userop_srv.json&group=dev&tenant=c711d735-06d1-4fca-9186-f7df5b5b0b67": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-04-01T11:19:32.414+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userop_srv.json","group":"dev","tenant":"c711d735-06d1-4fca-9186-f7df5b5b0b67"}>, call domain error:<Get "http://192.168.0.104:8849/nacos/v1/cs/configs?dataId=userop_srv.json&group=dev&tenant=c711d735-06d1-4fca-9186-f7df5b5b0b67": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-04-01T11:19:32.414+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:Get "http://192.168.0.104:8849/nacos/v1/cs/configs?dataId=userop_srv.json&group=dev&tenant=c711d735-06d1-4fca-9186-f7df5b5b0b67": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 
+2022-04-01T11:19:32.415+0800	[31mERROR[0m	config_client/config_client.go:205	get config from cache  error:failed to read config cache file:tmp/nacos/cache\config\userop_srv.json@@dev@@c711d735-06d1-4fca-9186-f7df5b5b0b67,err:open tmp/nacos/cache\config\userop_srv.json@@dev@@c711d735-06d1-4fca-9186-f7df5b5b0b67: The system cannot find the file specified.  
